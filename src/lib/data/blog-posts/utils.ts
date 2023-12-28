@@ -51,8 +51,6 @@ export const filterPosts = (posts: BlogPost[]) => {
     });
 }
 
-// #region Unexported Functions
-
 const getRelatedPosts = (posts: BlogPost[], post: BlogPost) => {
   // Get the first 3 posts that have the highest number of tags in common
   const relatedPosts = posts
@@ -68,5 +66,3 @@ const getRelatedPosts = (posts: BlogPost[], post: BlogPost) => {
     readingTime: p.html ? readingTime(striptags(p.html) || '').text : '',
   }));
 }
-
-// #endregion

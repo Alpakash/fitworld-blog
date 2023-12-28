@@ -2,12 +2,14 @@
 	import Card from '$lib/components/atoms/Card.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import Image from '../atoms/Image.svelte';
+	import dateformat from 'dateformat';
 
 	export let title: string;
 	export let coverImage: string | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
 	export let tags: string[] | undefined;
+	export let date: string | undefined = undefined;
 	export let readingTime: string | undefined = undefined;
 
 	export let showImage = true;
@@ -27,8 +29,8 @@
 		<p class="title">
 			{title}
 		</p>
-		{#if readingTime}
-			<div class="note">{readingTime}</div>
+		{#if date || readingTime}
+			<div class="note">{dateformat(date, 'UTC:dd mmmm yyyy')} <strong>|</strong> {readingTime}</div>
 		{/if}
 		{#if excerpt}
 			<p class="text">
@@ -78,9 +80,8 @@
 	}
 
 	.text {
-		margin-top: 5px;
+		margin-top: 10px;
 		font-size: 0.9rem;
-		text-align: justify;
 	}
 
 	.footer {

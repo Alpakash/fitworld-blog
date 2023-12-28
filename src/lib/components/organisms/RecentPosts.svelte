@@ -9,8 +9,8 @@
 
 <ContentSection
 	id="recent-posts"
-	title="Blog posts"
-	description="This section shows the 4 most recent blog posts. Check them out for tips on how to get started!"
+	title="Our Milestones"
+	description="Check out our most recent posts. Here we write about all our latest developments."
 	align="left"
 >
 	<div slot="button">
@@ -22,6 +22,7 @@
 				slug={post.slug}
 				title={post.title}
 				excerpt={post.excerpt}
+				date={post.date}
 				tags={post.tags}
 				readingTime={post.readingTime}
 				showImage={false}

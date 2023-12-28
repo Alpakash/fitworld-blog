@@ -3,6 +3,7 @@
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
+	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 </script>
 
 <footer>
@@ -10,18 +11,10 @@
 		<FooterWave />
 	</div>
 	<div class="content">
-		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
 		<div class="credits">
-			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
-				>SvelteKit</a
-			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
+			<h4>
+				Join us on <SparklingHighlight color="primary">our fit</SparklingHighlight> journey!
+			</h4>
 		</div>
 		<div class="socials">
 			<Socials />

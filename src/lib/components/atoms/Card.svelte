@@ -62,7 +62,7 @@
 			cursor: pointer;
 			&:hover {
 				box-shadow: var(--card-shadow-hover);
-				transform: scale(1.01);
+				transform: scale(1.05);
 			}
 		}
 	}

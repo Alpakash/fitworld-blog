@@ -2,12 +2,10 @@
 	import { theme } from '$lib/stores/theme';
 
 	function toggleTheme() {
-		if ($theme === 'auto') {
-			theme.set('light');
-		} else if ($theme === 'light') {
+		if ($theme === 'light') {
 			theme.set('dark');
 		} else {
-			theme.set('auto');
+			theme.set('light');
 		}
 	}
 </script>
@@ -45,7 +43,7 @@
 		</g>
 	</svg>
 
-	<span class="label">Auto</span>
+	<span class="label">Light</span>
 </button>
 
 <style lang="scss">
@@ -140,22 +138,6 @@
 
 	.theme-toggle:not([data-theme]) {
 		@include light-icon;
-	}
-
-	[data-theme='auto'] {
-		.label {
-			opacity: 1;
-			transform: scaleX(1);
-			max-width: 30px;
-		}
-
-		@media not all and (prefers-color-scheme: dark) {
-			@include light-icon;
-		}
-
-		@media (prefers-color-scheme: dark) {
-			@include dark-icon;
-		}
 	}
 
 	[data-theme='light'] {

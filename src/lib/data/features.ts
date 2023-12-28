@@ -2,42 +2,40 @@ import type { Feature } from "$lib/utils/types";
 
 export default [ 
   {
-    name: 'Markdown Support',
+    name: 'Social Engagement',
     description:
-      'Blog posts are written in Markdown, a simple and nearly-universal format. This means you can bring over your posts from other platforms, and easily export to another if you want to.',
-    image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Powered by MDsveX' }]
+      'Share your workouts with your friends, train together and earn badges and achievements.',
+    image: 'images/features/feature-social-engagement.png',
   }, 
   {
-    name: 'Themeable',
+    name: 'Supreme Game Mode',
     description:
-      'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
-    image: 'images/features/themeable.jpg',
-    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
+      'Climb up to the top of the leaderboard, earn badges and achievements which unlock new features, discounts at our partners and even earn you special belts.',
+    image: 'images/features/feature-game-mode.png',
+    tags: [{ label: 'Gamification' }, { label: 'Engagement', color: 'secondary' }]
   }, 
   {
-    name: 'Extensible',
+    name: 'Missions and Quests',
     description:
-      'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
-    image: 'images/features/extensible.jpg',
+      'There are a lot of missions and quests, which you can complete to unlock new features',
+    image: 'images/features/feature-missions.png',
   }, 
   {
-    name: 'Well Optimized',
+    name: 'Workouts on-demand',
     description:
-      'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
-    image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Powered by Image Transmutation' }]
+      'It\'s like  uber for the fitness world, earn via our platform by becoming a creator or workout by joining our community',
+    image: 'images/features/feature-on-demand.png',
   }, 
   {
-    name: 'Light and Dark Modes',
+    name: 'Workouts in more than X cities',
     description:
-      'This template was built with dark mode in mind. It can swap between themes automatically (based on system settings) or manually. Both themes can be tweaked in the _themes.scss file.',
-    image: 'images/features/light-dark.jpg',
+      'The mission of Fitworld is to be available in more than 10.000 cities around the globe. We want to be the best fitness app in the world',
+    image: 'images/features/feature-cities.png',
   },
   {
-    name: 'Open Source',
+    name: 'Fitworld',
     description:
-      'All code is open source, which means you can copy and modify it to your heart\'s content. All I ask is that you make your code open too so that knowledge can be passed on.',
-    image: 'images/features/open-source.jpg'
+      'We want this app to be the best fitness app in the world, so we are open-source. You can see the code on GitHub',
+    image: 'images/features/feature-fitworld.png'
   },
 ] as Feature[];

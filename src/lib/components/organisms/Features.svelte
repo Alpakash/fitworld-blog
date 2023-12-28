@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Feature } from '$lib/utils/types';
+	import type { Feature } from '$lib/utils/types';	
 	import FeatureCard from '$lib/components/molecules/FeatureCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 
@@ -9,7 +9,7 @@
 <ContentSection
 	id="features"
 	title="Features"
-	description="Here are some of the features of this template"
+	description="Why Fitworld is going to be different"
 >
 	<div class="features-container">
 		<div class="three-group-grid">

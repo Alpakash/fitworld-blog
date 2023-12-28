@@ -1,3 +1,13 @@
+# Todo
+- Fix mail waiting list sign-up via Brevo
+- Fix images for features
+- Think out features to display
+- Fix all text of website
+- Fix the colors of the site
+- Fix all warnings in the Build
+- Add developments and updates to the blog
+
+
 # SvelteKit Static Blog Template
 
 A lightweight and customizable template for blogs and portfolio websites, built with SvelteKit.

@@ -137,7 +137,13 @@
 	}
 
 	.theme-toggle:not([data-theme]) {
-		@include light-icon;
+		@media not all and (prefers-color-scheme: light) {
+			@include dark-icon;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			@include light-icon;
+		}
 	}
 
 	[data-theme='light'] {

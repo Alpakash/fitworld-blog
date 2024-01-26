@@ -2,7 +2,7 @@
 title: Making a commitment
 slug: making-commitment-creating-accountability
 coverImage: /images/posts/making-commitment/accountability-fw.png
-date: 2023-04-22T21:55:15.361Z
+date: 2023-12-28T22:55:15.000Z
 excerpt: Announcing the start of the development of our cross-platform application Fitworld.
 tags:
   - Commitment

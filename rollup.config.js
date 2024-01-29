@@ -1,4 +1,4 @@
-import svelte from 'svelte';
+import { svelte } from 'svelte';
 
 const ignoreWarnings = new Set([
     'a11y-no-onchange',

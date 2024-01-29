@@ -1,7 +1,7 @@
 ---
 title: Making a commitment
 slug: making-commitment-creating-accountability
-coverImage: /images/posts/making-commitment/accountability-fw.png
+coverImage: /images/posts/making-commitment/accountability-fw.webp
 date: 2023-12-28T22:55:15.000Z
 excerpt: Announcing the start of the development of our cross-platform application Fitworld.
 tags:
@@ -28,9 +28,9 @@ The web application however will live on [www.fitworld.app](https://www.fitworld
 ## Old Designs
 These designs are from a while ago, these are from 2019. It's time for a revamp!
 
-<div style="display: flex; height: 98%; gap: 20px;">
-<Image fullBleed src="/images/posts/making-commitment/workout-overviews.png" alt="Screenshot of the Fitworld home" />
-<Image fullBleed src="/images/posts/making-commitment/Fitworld App Missies.png" alt="Screenshot of the Fitworld missions page" />
+<div style="height: 98%; gap: 20px;">
+<Image fullBleed src="/images/posts/making-commitment/workout-overviews.webp" alt="Screenshot of the Fitworld home" />
+<Image fullBleed src="/images/posts/making-commitment/Fitworld App Missies.webp" alt="Screenshot of the Fitworld missions page" />
 </div>
 
 ## New Designs or revamp

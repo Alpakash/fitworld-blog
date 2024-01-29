@@ -12,9 +12,7 @@ const extensions = ['.svelte', '.md'];
 const config = {
 	kit: {
 		adapter: adapter(),
-		prerender: {
-			handleHttpError: 'warn'
-		}
+		prerender: true
 	},
 	preprocess: [
 		vitePreprocess(),

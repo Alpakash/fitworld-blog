@@ -5,6 +5,7 @@ import { mdsvex } from 'mdsvex';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { rollupConfig } from './rollup.config.js';
 
 const extensions = ['.svelte', '.md'];
 
@@ -40,7 +41,8 @@ const config = {
 			]
 		})
 	],
-	extensions: extensions
+	extensions: extensions,
+	rollup: rollupConfig
 };
 
 export default config;
